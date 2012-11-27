@@ -8,7 +8,7 @@ Based on the HTML5 implementation of the [Facebook Likebox](http://developers.Fa
 ###Install Instructions
 1. Copy `likebox.rb` to your `plugins` directory
 2. Copy `likebox.html` to your `source/_includes/asides` directory
-3. Add the following to the top of your `source/_layouts/default.html`
+3. Add the following to your `source/_layouts/default.html` right below the opening `<body>` tag:
 ```markdown
     {% if site.Facebook_pagename %}
       {% likebox %}
