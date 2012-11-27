@@ -20,30 +20,30 @@ Based on the HTML5 implementation of the [Facebook Likebox](http://developers.Fa
 ###Configuring Facebook likebox
 There are a number of optional parameters relating to the display of the likebox. They are fully documented at the Facebook developer's website above, but here is a brief overview
 
-**facebook_pagename**
+`facebook_pagename`
 This is required. If your Facebook page is www.Facebook.com/mycoolpage, then the `Facebook_pagename` would be `mycoolpage`
 
-**facebook_showfaces**
+`facebook_showfaces`
 Will display the faces of people who have liked the page on Facebook. 
 
-**facebook_showstream**
+`facebook_showstream`
 Will stream the latest posts from your page.
 
-**facebook_bordercolor**
+`facebook_bordercolor`
 Change the color of the border of the likebox (in hex). This parameter is not required.
 
-**facebook_darktheme**
+`facebook_darktheme`
 Set to true to change to a darker theme for the likebox.
 
-**facebook_height**
+`facebook_height`
 Manually set the height for the likebox.
 
-**facebook_width**
+`facebook_width`
 Manually set the width for the likebox. Facebook will default the width to 292px. If you're using the default Octopress theme, set the width to 260px for it to fit in the aside area.
 
-###Example config:
+###Example snippet to add to  _config.yml:
 ```markdown
-   \# Facebook likebox (for pages)
+   # Facebook likebox (for pages)
     facebook_pagename: MyCoolPage
     facebook_showfaces: true
     facebook_showstream: true
