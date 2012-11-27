@@ -9,9 +9,9 @@ Based on the HTML5 implementation of the [Facebook Likebox](http://developers.Fa
 1. Copy `likebox.rb` to your `plugins` directory
 2. Copy `likebox.html` to your `source/_includes/asides` directory
 3. Add the following to the top of your `source/_layouts/default.html`
-  {% if site.Facebook_pagename %}
-    {% likebox %}
-  {% endif %}
+    {% if site.Facebook_pagename %}
+      {% likebox %}
+    {% endif %}
 4. Add configuration info to `_config.yml`
 
 ###Configuring Facebook likebox
@@ -40,11 +40,11 @@ Manually set the width for the likebox. Facebook will default the width to 292px
 
 ###Example config:
 
- \# Facebook likebox (for pages)
-  facebook_pagename: MyCoolPage
-  facebook_showfaces: true
-  facebook_showstream: true
-  facebook_width: 260
+   \# Facebook likebox (for pages)
+    facebook_pagename: MyCoolPage
+    facebook_showfaces: true
+    facebook_showstream: true
+    facebook_width: 260
 
 ###Send feedback
 
